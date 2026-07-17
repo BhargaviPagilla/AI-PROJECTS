@@ -12,9 +12,9 @@ API_TOKEN = os.getenv("HF_API_TOKEN")
 
 #Initialize client
 client = InferenceClient(
-    provider="hf-inference",
     api_key=API_TOKEN
 )
+
 MODEL = "black-forest-labs/FLUX.1-schnell"
 
 #Streamlit page config
